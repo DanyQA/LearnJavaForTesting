@@ -32,12 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ru/stqa/pft/sandbox/MyFirstProgram.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-              <folding>
-                <element signature="e#103#104#0" expanded="true" />
-                <element signature="e#154#155#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -66,7 +62,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="974" />
+    <option name="width" value="1225" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -74,8 +70,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,7 +150,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -200,7 +196,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyFirstProgram1" />
+        <item itemvalue="Application.MyFirstProgram" />
       </list>
     </recent_temporary>
   </component>
@@ -214,10 +210,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="1131" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29321662" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25583568" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" weight="0.32981315" />
@@ -226,15 +221,15 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.3261105" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.63211954" weight="0.32603937" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49953315" visible="true" weight="0.39934355" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32827735" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.32603937" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5004669" side_tool="true" weight="0.39934355" />
       <window_info anchor="bottom" id="Build" order="9" weight="0.32932165" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49859944" weight="0.32932165" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -243,6 +238,18 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Gradle" order="6" />
     </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SandBox/src/main/java/ru/stqa/pft/sandbox/MyFirstProgram.java</url>
+          <line>5</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console.groovy">
@@ -260,12 +267,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ru/stqa/pft/sandbox/MyFirstProgram.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding>
-            <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#154#155#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
