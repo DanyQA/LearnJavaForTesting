@@ -1,12 +1,15 @@
 package ru.stqa.pft.addressbook.tests;
 
+import org.openqa.selenium.*;
+import org.openqa.selenium.remote.BrowserType;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import ru.stqa.pft.addressbook.appmanager.ApplicationManager;
 
 public class TestBase {
 
-  protected final ApplicationManager app = new ApplicationManager();
+  protected final ApplicationManager app = new ApplicationManager(BrowserType.CHROME);
 
   @BeforeClass(alwaysRun = true)
   public void setUp() throws Exception {
@@ -17,5 +20,4 @@ public class TestBase {
   public void tearDown() throws Exception {
     app.stop();
   }
-
 }

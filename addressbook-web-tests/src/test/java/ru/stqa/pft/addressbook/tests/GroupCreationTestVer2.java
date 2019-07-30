@@ -10,7 +10,7 @@ public class GroupCreationTestVer2 extends TestBase {
   public void testGroupCreationTestVer2() throws Exception {
     app.getNavigationHelper().gotoGroupPage("groups");
     app.getGroupHelper().initGroupCreation("new");
-    app.getGroupHelper().fillGroupForm(new GroupData("NewGroupForKatalon", "TestText", "SomeText"));
+    app.getGroupHelper().fillGroupForm(new GroupData(null, "SomeHeader", "SomeText"));
     app.getGroupHelper().sumbitGroupCreation("submit");
     app.getGroupHelper().returntoGroupPage();
     app.getNavigationHelper().gotoGroupPage("groups");
