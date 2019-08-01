@@ -6,12 +6,10 @@ import ru.stqa.pft.addressbook.model.GroupData;
 
 public class GroupHelper extends HelperBase {
 
+  private ApplicationManager app;
+
   public GroupHelper(WebDriver driver) {
     super(driver);
-  }
-
-  public void returntoGroupPage() {
-    click(By.linkText("group page"));
   }
 
   public void sumbitGroupCreation(String submit) {
@@ -33,8 +31,8 @@ public class GroupHelper extends HelperBase {
     click(By.name(delete));
   }
 
-  public void selectGroup(String s) {
-    click(By.name(s));
+  public void selectGroup(String select) {
+    click(By.name(select));
   }
 
   public void initGroupModification(String edit) {
@@ -43,5 +41,20 @@ public class GroupHelper extends HelperBase {
 
   public void sumbitGroupModification(String update) {
     click(By.name(update));
+  }
+
+  public void createGroup(GroupData group) {
+    initGroupCreation("new");
+    fillGroupForm(group);
+    sumbitGroupCreation("submit");
+
+  }
+
+  public boolean isThereAGroup() {
+    return isElementPresent(By.name("selected[]"));
+  }
+
+  public int getGroupCount() {
+    return driver.findElements(By.name("selected[]")).size();
   }
 }

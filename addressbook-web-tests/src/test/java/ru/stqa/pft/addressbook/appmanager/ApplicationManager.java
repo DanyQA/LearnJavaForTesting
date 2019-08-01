@@ -46,7 +46,7 @@ public class ApplicationManager {
     sessionHelper.login("user", "pass", "(.//*[normalize-space(text()) and normalize-space(.)='Password:'])[1]/following::input[2]", "admin", "secret");
   }
 
-  public void returnToHomePage(String s) {
+  public void click(String s) {
     driver.findElement(By.linkText(s)).click();
   }
 
@@ -56,15 +56,6 @@ public class ApplicationManager {
     String verificationErrorString = verificationErrors.toString();
     if (!"".equals(verificationErrorString)) {
       fail(verificationErrorString);
-    }
-  }
-
-  private boolean isElementPresent(By by) {
-    try {
-      driver.findElement(by);
-      return true;
-    } catch (NoSuchElementException e) {
-      return false;
     }
   }
 

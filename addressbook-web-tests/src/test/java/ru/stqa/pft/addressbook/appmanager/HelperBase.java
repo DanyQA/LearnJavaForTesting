@@ -2,6 +2,7 @@ package ru.stqa.pft.addressbook.appmanager;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoAlertPresentException;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 
@@ -61,8 +62,14 @@ public class HelperBase {
     driver.findElement(By.name(bday)).click();
   }
 
-  public void gotoAddNewContact(String s) {
-    driver.findElement(By.linkText(s)).click();
+  public boolean isElementPresent(By locator) {
+    try {
+      driver.findElement(locator);
+      return true;
+    } catch (NoSuchElementException e) {
+      return false;
+    }
   }
+
 }
 
